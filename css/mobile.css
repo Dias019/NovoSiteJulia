@@ -1,0 +1,124 @@
+/* Estilos gerais */
+body {
+    display: block;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Container dos botões */
+    .buttons-container {
+        flex-direction: column; /* Empilha os botões verticalmente */
+        margin-bottom: 20px; /* Reduz a margem inferior */
+    }
+
+    /* Botões */
+    .buttons-container button {
+        width: 255px; /* Ajuste o tamanho do botão conforme necessário */
+        height: 60px; /* Ajuste a altura do botão conforme necessário */
+        font-size: 18px; /* Ajuste o tamanho da fonte do botão conforme necessário */
+        margin: 10px auto; /* Centraliza os botões horizontalmente */
+    }
+
+    /* Imagem nos botões */
+    .buttons-container img {
+        margin-right: 0; /* Remove a margem à direita */
+        margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+        width: 80px; /* Reduz o tamanho da imagem */
+        height: 80px;
+    }
+
+    /* Carrossel de fotos */
+    .slides .slide {
+        margin-left: 40px; /* Centraliza o slide */
+    }
+
+    .slides .slide img {
+        margin-top: 20px; /* Reduz o espaço acima da imagem */
+        width: 90%; /* Ajusta a largura da imagem */
+        height: auto; /* Altura automática */
+        max-width: 300px; /* Limita a largura máxima */
+    }
+
+    /* Segundo conteúdo */
+    .sobre-Estudio .conteudo {
+        flex-direction: column; /* Empilhar os itens verticalmente */
+        align-items: center; /* Centralizar os itens horizontalmente */
+        text-align: center; /* Alinhar o texto ao centro */
+    }
+
+    .sobre-Estudio .conteudo img {
+        margin: 0; /* Remover a margem ao redor da imagem */
+        margin-bottom: 20px; /* Adicionar espaço abaixo da imagem */
+        width: 90%; /* Aumentar a largura da imagem */
+        max-width: 400px; /* Definir uma largura máxima para a imagem */
+        height: auto; /* Altura automática */
+        border-radius: 50%; /* Bordas arredondadas */
+    }
+
+    .conteudo-wrapper img{
+        width: 50%;
+    }
+
+    .sobre-Estudio .texto {
+        margin: 0; /* Remover margens do texto */
+        max-width: 100%; /* Largura máxima do texto */
+    }
+
+    /* Botão */
+    .button-29 {
+        width: 80%; /* Define a largura do botão */
+        margin: 10px auto; /* Centraliza o botão horizontalmente */
+        font-size: 16px; /* Reduz o tamanho da fonte */
+        height: 40px; /* Altura do botão */
+    }
+
+    /* Conteúdo geral */
+    .texto {
+        max-width: 100%; /* Define a largura máxima para o texto */
+        margin-top: 20px; /* Ajusta a margem superior */
+        margin-left: 0; /* Define a margem esquerda como 0 */
+    }
+
+    .conteudo img {
+        margin-left: 0; /* Remove a margem à esquerda */
+        margin-right: 0; /* Remove a margem à direita */
+        margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+        width: 100%; /* Define a largura total para a imagem */
+        max-width: unset; /* Remove a largura máxima */
+        height: auto; /* Altura automática */
+        float: none; /* Remove o float */
+    }
+    .contato {
+        width: 100%; /* Define a largura total */
+    }
+
+    /* Lista de contato */
+    .li2 {
+        text-align: center; /* Centraliza o texto */
+        margin-right: 0; /* Remove a margem à direita */
+        margin-top: 10px; /* Adiciona um espaço acima */
+    }
+    
+    .mapa {
+        width: 100%; /* Define a largura total */
+        max-width: 300px; /* Define a largura máxima */
+        height: 200px; /* Define a altura do mapa */
+        margin: 0 auto; /* Centraliza o mapa horizontalmente */
+    }
+
+    .titulo-h1{
+        color: rgb(145, 13, 101) ;
+    }
+}

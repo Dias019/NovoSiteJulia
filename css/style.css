@@ -1,0 +1,267 @@
+body{
+    display: block;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+    .titulo-h1{
+        color: rgb(145, 13, 101) ;
+    }
+        
+        .buttons-container {
+            display: flex;
+            align-items: center; /* Centraliza verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
+            background-color: rgb(255, 192, 203);
+            margin-bottom: 40px;
+            height: auto; /* Ajustar a altura automaticamente */
+        }
+        
+        .buttons-container button {
+            min-width: 200px; /* Definir uma largura mínima para os botões */
+            height: 40px; /* Altura dos botões */
+            margin: 0 10px; /* Margem entre os botões */
+        }
+        
+        .buttons-container img {
+            margin-right: 40px; /* Adiciona um espaço entre a imagem e os botões */
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        
+        .buttons-container {
+            text-align: center; /* Centraliza os botões */
+            margin-top: 10px; /* Adiciona um pequeno espaço acima dos botões */
+        }
+        
+        .button {
+            padding: 10px 20px; /* Define o preenchimento dos botões */
+            margin: 5px; /* Adiciona um espaço entre os botões */
+            background-color: #f0f0f0; /* Cor de fundo dos botões */
+            border: none; /* Remove a borda dos botões */
+            border-radius: 5px; /* Borda arredondada */
+            cursor: pointer; /* Muda o cursor para indicar que os botões são clicáveis */
+            margin-top: 40px;
+        }
+        
+        /* Carrossel de fotos */
+        
+        .slides {
+            display: block;
+            overflow: hidden;
+            position: relative;
+        }
+        .slides .slide {
+            display: block;
+            display: none;
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            margin-left: 32%;
+            margin-top: 20px;
+        }
+        .slides .slide img {
+            margin-top: 30px;
+           width: 700px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .navigation label {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-color: #ccc;
+            border-radius: 50%;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        .navigation label:hover {
+            background-color: #aaa;
+        }
+        .navigation label.active {
+            background-color: #333;
+        }
+        
+        .trabalhos{
+            text-align: center;
+        }
+        
+        /* imagem ao lado  */
+        
+        .conteudo {
+            display: flex; /* Ativa o modelo de layout flexível */
+            align-items: center; /* Alinha os itens verticalmente ao centro */
+        }
+        
+        .conteudo-wrapper2 {
+            flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+        }
+        
+        .texto {
+            flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+            margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
+        }
+        
+        .texto .ul-conteudo {
+            list-style-type: none;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .texto .ul-conteudo li {
+            margin-bottom: 10px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        
+        
+        .texto {
+            max-width: calc(100% - 150px); /* Ajusta a largura do texto para permitir espaço para a imagem */
+            margin-top: 30px;
+            margin-left: 0px; /* Definindo a margem esquerda como 0 para colar o texto à esquerda */
+            font-family: 'Times New Roman', Times, serif ;
+        }
+        
+        .conteudo img {
+            border-radius: 50%;
+            float: right; /* Move a imagem para o canto direito */
+            margin-left: 90px; /* Adiciona um espaço entre a imagem e o texto */
+            font-size: 100px;
+            height: 650px;
+            margin-right: px;
+        
+            text-align: center;
+        }
+        
+        h1, h2 {
+            text-align: center;
+        }
+        
+        h2 {
+            margin-top: 30px;
+        }
+        
+        li {
+            margin-bottom: 20px;
+        }
+        
+        
+        /* segundo conteudo */
+        .sobre-Estudio {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .conteudo-wrapper {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+        
+        .image2 {
+            width: 28%;
+            border-radius: 50%;
+        }
+        
+        .conteudo-estudio {
+            flex: 1;
+            padding-left: 20px; /* Espaçamento entre a imagem e o texto */
+        }
+        
+        .ul-conteudo2 {
+            list-style-type: none; /* Removendo os pontos da lista */
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        
+        /* mapa */
+        
+        .contato{
+            align-items: center;
+            display: block;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .li2{
+            text-align: right;
+            margin-right: 0%;
+        
+        }
+        
+        /* botão */
+        /* CSS */
+        .button-29 {
+          align-items: center;
+          appearance: none;
+          background-image: radial-gradient(100% 100% at 100% 0, #d93ccc 0, #af1cb1 100%);
+          border: 0;
+          border-radius: 6px;
+          box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+          box-sizing: border-box;
+          color: #fff;
+          cursor: pointer;
+          display: inline-flex;
+          font-family: "JetBrains Mono",monospace;
+          height: 48px;
+          justify-content: center;
+          line-height: 1;
+          list-style: none;
+          overflow: hidden;
+          padding-left: 16px;
+          padding-right: 16px;
+          position: relative;
+          text-align: left;
+          text-decoration: none;
+          transition: box-shadow .15s,transform .15s;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+          white-space: nowrap;
+          will-change: box-shadow,transform;
+          font-size: 18px;
+        }
+        
+        .button-29:focus {
+          box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+        }
+        
+        .button-29:hover {
+          box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #d029bf 0 -3px 0 inset;
+          transform: translateY(-2px);
+        }
+        
+        .button-29:active {
+          box-shadow: #3c4fe0 0 3px 7px inset;
+          transform: translateY(2px);
+        }   
+
+        b{
+            text-align: end;
+            justify-content: end;
+        }
+
+        .li3{
+            margin-bottom: 30px;
+            text-align: right;
+            margin-right: 0%;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+
+        .ul-conteudo3 {
+            margin-top: 20px;
+            list-style-type: none; /* Removendo os pontos da lista */
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .ul-conteudo3 li b {
+            margin-bottom: 10px; /* Adiciona espaço entre a tag <b> e a tag <li> */
+        }
