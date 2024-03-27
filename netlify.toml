@@ -1,4 +1,4 @@
-conteúdo: [[redirects]]
+[[redirects]]
 from = "/*"
-to = "/loja.html"
-status = 200
+to = "/html/index.html"
+status = 200
